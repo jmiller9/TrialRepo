@@ -30,9 +30,9 @@ public class Employee
       return hireDay;
    }
 
-   public void raiseSalary(double byPercent)
+   public void raiseSalary(double byValue)
    {
-      double raise = salary * byPercent / 100;
+      double raise = salary * byPercent;
       salary += raise;
    }
 
